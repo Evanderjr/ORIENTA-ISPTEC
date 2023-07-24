@@ -1630,12 +1630,32 @@ input[type="radio"]:hover {
 
 /*-----------------------------------------------------------------------------------------*/
 
+.question-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .personal-info {
   margin-bottom: 30px;
   background-color: #f8af16;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+
+.question, .chat {
+  margin-bottom: 30px;
+  background-color: #f8af16;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f8af16;
 }
 
 h2 {
@@ -1654,10 +1674,36 @@ label {
   color: #ffffff;
 }
 
-input {
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"] {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
   font-family: Arial, sans-serif;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+  .question-container {
+      padding: 10px;
+  }
+
+  .question, .chat, .personal-info {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  h2 {
+      font-size: 1.2em;
+  }
 }
