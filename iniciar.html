@@ -92,6 +92,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
+      <div id="user-container"></div>  
       <form>
 
         <div class="personal-info">
@@ -125,53 +126,193 @@
 
 
         <!--...................................................................................................-->
-        <div class="question">
-            <label>Q1. A fim de um longo dia de trabalho você geralmente prefere:</label><br>
-            <input type="radio" name="q1" value="conversar_com_amigos"> Conversar com amigos ou com a família<br>
-            <input type="radio" name="q1" value="ouvir_outros"> Ouvir o que o outro tem a contar sobre o dia<br>
-            <input type="radio" name="q1" value="ler_ou_assistir_tv"> Ler ou assistir a televisão em silêncio<br>
-            <input type="radio" name="q1" value="nenhuma_alternativa"> Nenhuma alternativa<br>
-        </div>
+        <!-- Pergunta 1 -->
+    <div class="question">
+        <label>Q1. A fim de um longo dia de trabalho você geralmente prefere:</label><br>
+        <input type="radio" name="q1" value="conversar_com_amigos"> Conversar com amigos ou com a família<br>
+        <input type="radio" name="q1" value="ouvir_outros"> Ouvir o que o outro tem a contar sobre o dia<br>
+        <input type="radio" name="q1" value="ler_ou_assistir_tv"> Ler ou assistir a televisão em silêncio<br>
+        <input type="radio" name="q1" value="nenhuma_alternativa"> Nenhuma alternativa<br>
+    </div>
 
-        <div class="question">
-            <label>Q2. Na escola você prefere assuntos ligados a:</label><br>
-            <input type="radio" name="q2" value="arte_desportos"> Arte, desportos e atividades extracurriculares<br>
-            <input type="radio" name="q2" value="ciencias_humanas"> Ciências humanas, idiomas<br>
-            <input type="radio" name="q2" value="ciencias_exatas"> Ciências exatas<br>
-        </div>
+    <!-- Pergunta 2 -->
+    <div class="question">
+        <label>Q2. Na escola você prefere assuntos ligados a:</label><br>
+        <input type="radio" name="q2" value="arte_desportos"> Arte, desportos e atividades extracurriculares<br>
+        <input type="radio" name="q2" value="ciencias_humanas"> Ciências humanas, idiomas<br>
+        <input type="radio" name="q2" value="ciencias_exatas"> Ciências exatas<br>
+    </div>
 
-        <div class="question">
-            <label>Q3. Você prefere levar sua vida:</label><br>
-            <input type="radio" name="q3" value="pouca_rotina"> Com pouca rotina e poucas regras<br>
-            <input type="radio" name="q3" value="regras_definidas"> Com regras definidas e disciplina<br>
-            <input type="radio" name="q3" value="interagindo_com_todos"> Interagindo com todo o tipo de pessoa<br>
-            <input type="radio" name="q3" value="muita_autonomia"> Com muita autonomia<br>
-        </div>
+    <!-- Pergunta 3 -->
+    <div class="question">
+        <label>Q3. Você prefere levar sua vida:</label><br>
+        <input type="radio" name="q3" value="pouca_rotina"> Com pouca rotina e poucas regras<br>
+        <input type="radio" name="q3" value="regras_definidas"> Com regras definidas e disciplina<br>
+        <input type="radio" name="q3" value="interagindo_com_todos"> Interagindo com todo o tipo de pessoa<br>
+        <input type="radio" name="q3" value="muita_autonomia"> Com muita autonomia<br>
+    </div>
 
-        <div class="question">
-            <label>Q4. Você se descreveria como uma pessoa:</label><br>
-            <input type="radio" name="q4" value="impulsiva_aventureira"> Impulsiva e um tanto aventureira<br>
-            <input type="radio" name="q4" value="cautelosa_responsavel"> Cautelosa e responsável<br>
-            <input type="radio" name="q4" value="entusiasmada_amiga"> Entusiasmada e muito amiga<br>
-            <input type="radio" name="q4" value="calma_diferente"> Calma e diferente da maioria<br>
-        </div>
+    <!-- Pergunta 4 -->
+    <div class="question">
+        <label>Q4. Você se descreveria como uma pessoa:</label><br>
+        <input type="radio" name="q4" value="impulsiva_aventureira"> Impulsiva e um tanto aventureira<br>
+        <input type="radio" name="q4" value="cautelosa_responsavel"> Cautelosa e responsável<br>
+        <input type="radio" name="q4" value="entusiasmada_amiga"> Entusiasmada e muito amiga<br>
+        <input type="radio" name="q4" value="calma_diferente"> Calma e diferente da maioria<br>
+    </div>
 
-        <div class="question">
-            <label>Q5. Você se considera uma pessoa:</label><br>
-            <input type="radio" name="q5" value="pratica_habil_improvisar"> Prática e hábil para improvisar<br>
-            <input type="radio" name="q5" value="batalhadora_sabe_o_que_quer"> Batalhadora que sabe o que quer<br>
-            <input type="radio" name="q5" value="preocupada_questoes_humanas"> Preocupada com questões humanas<br>
-            <input type="radio" name="q5" value="capacitada_criar_inventar"> Capacitada para criar e inventar<br>
-        </div>
+    <!-- Pergunta 5 -->
+    <div class="question">
+        <label>Q5. Você se considera uma pessoa:</label><br>
+        <input type="radio" name="q5" value="pratica_habil_improvisar"> Prática e hábil para improvisar<br>
+        <input type="radio" name="q5" value="batalhadora_sabe_o_que_quer"> Batalhadora que sabe o que quer<br>
+        <input type="radio" name="q5" value="preocupada_questoes_humanas"> Preocupada com questões humanas<br>
+        <input type="radio" name="q5" value="capacitada_criar_inventar"> Capacitada para criar e inventar<br>
+    </div>
 
-        <div class="question">
-            <label>Q6. De quais características suas você se sente orgulhoso(a):</label><br>
-            <input type="radio" name="q6" value="audacia_facilidade_lidar"> Audácia e facilidade para lidar com o inesperado<br>
-            <input type="radio" name="q6" value="senso_dever_capacidade_exemplo"> Senso de dever e capacidade de dar exemplo<br>
-            <input type="radio" name="q6" value="idealismo_disposicao_compreender"> Idealismo e disposição para compreender os outros<br>
-            <input type="radio" name="q6" value="engenhosidade_rapidez_mental"> Engenhosidade e rapidez mental<br>
-        </div>
+    <!-- Pergunta 6 -->
+    <div class="question">
+        <label>Q6. De quais características suas você se sente orgulhoso(a):</label><br>
+        <input type="radio" name="q6" value="audacia_facilidade_lidar"> Audácia e facilidade para lidar com o inesperado<br>
+        <input type="radio" name="q6" value="senso_dever_capacidade_exemplo"> Senso de dever e capacidade de dar exemplo<br>
+        <input type="radio" name="q6" value="idealismo_disposicao_compreender"> Idealismo e disposição para compreender os outros<br>
+        <input type="radio" name="q6" value="engenhosidade_rapidez_mental"> Engenhosidade e rapidez mental<br>
+    </div>
 
+    <!-- Pergunta 7 -->
+    <div class="question">
+        <label>Q7. Costuma confiar mais em:</label><br>
+        <input type="radio" name="q7" value="percepcao_imediata"> Percepção imediata<br>
+        <input type="radio" name="q7" value="costumes_e_tradicoes"> Costumes e tradições<br>
+        <input type="radio" name="q7" value="intuicao"> Intuição<br>
+        <input type="radio" name="q7" value="razao_e_logica"> Razão e lógica<br>
+    </div>
+
+    <!-- Pergunta 8 -->
+    <div class="question">
+        <label>Q8. Quase sempre, você gosta de:</label><br>
+        <input type="radio" name="q8" value="causar_impacto"> Causar impacto: os holofotes o atraem<br>
+        <input type="radio" name="q8" value="ser_visto_membro_valioso"> Ser visto como membro valioso de um grupo<br>
+        <input type="radio" name="q8" value="sonhar_transformar_mundo"> Sonhar em transformar o mundo<br>
+        <input type="radio" name="q8" value="desvendar_enigma_inventar_util"> Desvendar um enigma ou inventar algo útil<br>
+    </div>
+
+    <!-- Pergunta 9 -->
+    <div class="question">
+        <label>Q9. A vida é mais interessante quando você tem:</label><br>
+        <input type="radio" name="q9" value="desafios_situacoes_cambiantes"> Desafios, situações cambiantes<br>
+        <input type="radio" name="q9" value="seguranca_emprego_garantido"> Segurança, emprego garantido, integração social<br>
+        <input type="radio" name="q9" value="possibilidade_mudar_mundo"> Possibilidade de fazer algo para mudar o mundo<br>
+        <input type="radio" name="q9" value="possibilidade_ir_alem_conhecido"> Possibilidade de ir além do que já é conhecido<br>
+    </div>
+
+    <!-- Pergunta 10 -->
+    <div class="question">
+        <label>Q10. Você gostaria de ser:</label><br>
+        <input type="radio" name="q10" value="craque_profissao_escolher"> Um craque na profissão que escolher<br>
+        <input type="radio" name="q10" value="executivo_bem-sucedido"> Um executivo bem-sucedido<br>
+        <input type="radio" name="q10" value="profissional_prestigio"> Um profissional de prestígio<br>
+        <input type="radio" name="q10" value="especialista_cientista"> Um especialista ou um cientista<br>
+    </div>
+
+    <!-- Pergunta 11 -->
+    <div class="question">
+        <label>Q11. Você é muito bom lidando com:</label><br>
+        <input type="radio" name="q11" value="ferramentas_instrumentos_equipamentos"> Ferramentas, instrumentos e equipamentos<br>
+        <input type="radio" name="q11" value="controle_tempo_comando_execucao"> Controle do tempo, comando e execução<br>
+        <input type="radio" name="q11" value="pessoas_niveis_sociais_culturais"> Pessoas de todos os níveis sociais e culturais<br>
+        <input type="radio" name="q11" value="sistemas_construcao_material_mental"> Sistemas e construção (material ou mental)<br>
+    </div>
+
+    <!-- Pergunta 12 -->
+    <div class="question">
+        <label>Q12. Antes de agir, você analisa:</label><br>
+        <input type="radio" name="q12" value="vantagens_imediatas"> As vantagens imediatas<br>
+        <input type="radio" name="q12" value="experiencias_ja_vividas"> As experiências já vividas<br>
+        <input type="radio" name="q12" value="possibilidades_futuras"> As possibilidades futuras<br>
+        <input type="radio" name="q12" value="condicoes_e_consequencias"> As condições e consequências<br>
+    </div>
+
+    <!-- Pergunta 13 -->
+    <div class="question">
+        <label>Q13. Gosta quando as pessoas:</label><br>
+        <input type="radio" name="q13" value="surpreendem_com_presente"> O surpreendem com um presente<br>
+        <input type="radio" name="q13" value="expressam_gratidao_pelo_fez"> Expressam gratidão pelo que fez<br>
+        <input type="radio" name="q13" value="reconhecem_personalidade_singular"> Reconhecem sua personalidade singular<br>
+        <input type="radio" name="q13" value="reconhecem_inteligencia"> Reconhecem sua inteligência<br>
+    </div>
+
+    <!-- Pergunta 14 -->
+    <div class="question">
+        <label>Q14. Você costuma abraçar um novo projeto:</label><br>
+        <input type="radio" name="q14" value="cara_coragem"> Com a cara e a coragem<br>
+        <input type="radio" name="q14" value="guiado_experiencia"> Guiado pela experiência<br>
+        <input type="radio" name="q14" value="confiando_intuicao_criatividade"> Confiando na intuição e na criatividade<br>
+        <input type="radio" name="q14" value="depois_verificar_variaveis"> Depois de verificar todas as variáveis<br>
+    </div>
+
+    <!-- Pergunta 15 -->
+    <div class="question">
+        <label>Q15. Geralmente, você prefere agir:</label><br>
+        <input type="radio" name="q15" value="calor_do_momento"> No calor do momento<br>
+        <input type="radio" name="q15" value="seguranca_conforme_costume"> Com segurança e conforme o costume<br>
+        <input type="radio" name="q15" value="quando_inspirado"> Quando está inspirado<br>
+        <input type="radio" name="q15" value="quando_problema_desafia"> Quando um problema o desafia<br>
+    </div>
+
+    <!-- Pergunta 16 -->
+    <div class="question">
+        <label>Q16. Você fica motivado quando:</label><br>
+        <input type="radio" name="q16" value="oportunidade_superar_obstaculos"> Tem a oportunidade de superar obstáculos<br>
+        <input type="radio" name="q16" value="experimenta_estabilidade_vida_profissional"> Experimenta estabilidade na vida profissional, ou seja, sabe em que terreno está pisando<br>
+        <input type="radio" name="q16" value="harmonia_inspiracao_guiam_atividade"> Harmonia e inspiração guiam a atividade<br>
+        <input type="radio" name="q16" value="liberdade_projetar_futuro"> Há liberdade para projetar o futuro<br>
+    </div>
+
+    <!-- Pergunta 17 -->
+    <div class="question">
+        <label>Q17. Em atividades em grupo, você prefere:</label><br>
+        <input type="radio" name="q17" value="desafiadoras_exigem_acao_rapida"> As desafiadoras, que exigem ação rápida<br>
+        <input type="radio" name="q17" value="administrar_recursos_disponiveis"> Administrar os recursos disponíveis<br>
+        <input type="radio" name="q17" value="motivar_pessoas_darem_melhor_si"> Motivar as pessoas para darem o melhor de si<br>
+        <input type="radio" name="q17" value="descartar_logo_que_nao_funciona"> Descartar logo o que não funciona<br>
+    </div>
+
+    <!-- Pergunta 18 -->
+    <div class="question">
+        <label>Q18. Liderar é uma atividade que gosta de exercer:</label><br>
+        <input type="radio" name="q18" value="pouco_tempo_dependendo_situacao"> Por pouco tempo e dependendo da situação<br>
+        <input type="radio" name="q18" value="pode_comandar_do_comeco_ao_fim"> Quando pode comandar do começo ao fim<br>
+        <input type="radio" name="q18" value="preciso_identificar_reunir_talentos"> Quando é preciso identificar e reunir talentos<br>
+        <input type="radio" name="q18" value="raciocinio_estrategico_necessario"> Quando o raciocínio estratégico é necessário<br>
+    </div>
+
+    <!-- Pergunta 19 -->
+    <div class="question">
+        <label>Q19. Em uma escola, você gostaria de ser:</label><br>
+        <input type="radio" name="q19" value="professor_educacao_fisica"> Professor de educação física<br>
+        <input type="radio" name="q19" value="diretor"> Diretor<br>
+        <input type="radio" name="q19" value="professor_literatura"> Professor de literatura<br>
+        <input type="radio" name="q19" value="professor_matematica_fisica"> Professor de matemática ou física<br>
+    </div>
+
+    <!-- Pergunta 20 -->
+    <div class="question">
+        <label>Q20. É um elogio quando se referem a você como:</label><br>
+        <input type="radio" name="q20" value="corajoso_otimista_divertido"> Corajoso, otimista e divertido<br>
+        <input type="radio" name="q20" value="cauteloso_responsavel_aplicado"> Cauteloso, responsável e aplicado<br>
+        <input type="radio" name="q20" value="harmonizador_integro_sabio"> Harmonizador, íntegro e sábio<br>
+        <input type="radio" name="q20" value="mente_brilhante"> Uma mente brilhante<br>
+    </div>
+
+    <!-- Pergunta 21 -->
+    <div class="question">
+        <label>Q21. Frase que tem a ver com você:</label><br>
+        <input type="radio" name="q21" value="deixo_vida_me_levar"> Deixo a vida me levar<br>
+        <input type="radio" name="q21" value="manda_quem_pode_obedece_quem_tem_juizo"> Manda quem pode, obedece quem tem juízo<br>
+        <input type="radio" name="q21" value="para_seu_interesse_seja_verdadeiro"> Para seu próprio interesse, seja verdadeiro<br>
+        <input type="radio" name="q21" value="penso_logo_exist"> Penso, logo existo<br>
+    </div>
         <div class="chat">
             <label for="extra-information">Outras informações (opcional):</label><br>
             <textarea id="extra-information" rows="4" cols="50" placeholder="Digite aqui suas informações extras..."></textarea>
@@ -179,9 +320,9 @@
 
         <div class="submit-button">
             <input type="submit" value="Enviar">
-        </div>
-        <script src="script.js"></script>
+        </div>       
     </form>
+    <script src="script.js"></script>
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
